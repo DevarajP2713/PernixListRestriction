@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="ListRestriction"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="0ec1f751-c808-4f07-a2b7-c95120037af4"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

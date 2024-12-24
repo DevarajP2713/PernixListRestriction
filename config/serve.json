@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://technorucs365.sharepoint.com/sites/PernixIntranet/Lists/RestrictedLists/AllItems.aspx",
+      "customActions": {
+        "0ec1f751-c808-4f07-a2b7-c95120037af4": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "listRestriction": {
+      "pageUrl": "https://technorucs365.sharepoint.com/sites/PernixIntranet/Lists/RestrictedLists/AllItems.aspx",
+      "customActions": {
+        "0ec1f751-c808-4f07-a2b7-c95120037af4": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Dev - https://technorucs365.sharepoint.com/sites/PernixIntranet/Lists/RestrictedLists/AllItems.aspx */
+
+/* UAT - https://pernixgroup.sharepoint.com/sites/TestIntranet/Lists/RestrictedLists/AllItems.aspx */

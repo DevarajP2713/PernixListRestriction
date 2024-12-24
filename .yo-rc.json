@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "pernix-list-restriction",
+    "libraryId": "608c9f31-395d-4fc4-bebd-e3a2afb301cd",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "pernix-list-restriction",
+    "solutionShortDescription": "pernix-list-restriction description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}
